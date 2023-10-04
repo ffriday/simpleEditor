@@ -18,5 +18,10 @@ module.exports = {
     project: 'tsconfig.json'
   },
   plugins: ['react'],
-  rules: {}
+  rules: {
+    '@typescript-eslint/semi': 0,
+    'react/react-in-jsx-scope': 0,
+    '@typescript-eslint/no-non-null-assertion': 0,
+    '@typescript-eslint/triple-slash-reference': 0
+  }
 }
