@@ -1,0 +1,9 @@
+@import '../constants/variables.css';
+
+.editor__container {
+  background-color: var(--test);
+  width: var(--editor-width);
+  max-width: var(--editor-max-width);
+  margin: var(--editor-margin) 0px var(--editor-margin) 0px;
+  color: var(--editor-font-color);
+}
