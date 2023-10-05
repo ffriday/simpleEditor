@@ -24,5 +24,6 @@ module.exports = {
     'react/react-in-jsx-scope': 0,
     '@typescript-eslint/no-non-null-assertion': 0,
     '@typescript-eslint/triple-slash-reference': 0,
+    '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
   },
 };
