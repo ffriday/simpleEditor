@@ -3,35 +3,41 @@ import imageForward from '../assets/forvard.svg';
 import imageCaption from '../assets/caption.svg';
 import imageParagraph from '../assets/paragraph.svg';
 import imageImage from '../assets/image.svg';
+import { ButtonAction } from '../constants/variables';
 
 type TMenuProps = {
-  name: string;
+  name: ButtonAction;
   image: string;
 };
 
+export type TButtonActionProps = {
+  name: ButtonAction;
+  event?: React.MouseEvent<HTMLButtonElement, MouseEvent>;
+};
+
 export type TMenuButton = TMenuProps & {
-  handler: (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
+  handler: ({ name, event }: TButtonActionProps) => void;
 };
 
 export const buttons: TMenuProps[] = [
   {
-    name: 'Back',
+    name: ButtonAction.back,
     image: imageBack,
   },
   {
-    name: 'Forward',
+    name: ButtonAction.forvard,
     image: imageForward,
   },
   {
-    name: 'Caption',
+    name: ButtonAction.caption,
     image: imageCaption,
   },
   {
-    name: 'Paragraph',
+    name: ButtonAction.paragraph,
     image: imageParagraph,
   },
   {
-    name: 'Image',
+    name: ButtonAction.image,
     image: imageImage,
   },
 ];

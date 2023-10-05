@@ -12,7 +12,7 @@ export default function Button({
       type="button"
       className="menu__button"
       onClick={(event) => {
-        handler(event);
+        handler({ name, event });
       }}
     >
       <img src={image} alt={name} />
