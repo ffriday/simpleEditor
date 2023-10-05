@@ -3,6 +3,7 @@
 .editor__menu {
   display: flex;
   gap: var(--menu-nav-gap);
+  padding: var(--menu-padding-top) 0 var(--menu-padding-bottom) 0;
 }
 
 .editor__buttons {

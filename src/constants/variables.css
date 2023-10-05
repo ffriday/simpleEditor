@@ -18,6 +18,8 @@
   --menu-button-gap: 12px;
   --menu-nav-gap: 19px;
   --manu-button-scale: 1.1;
+  --menu-padding-top: 77px;
+  --menu-padding-bottom: 31px;
 }
 
 @media (width >= 1000px) {
@@ -39,6 +41,8 @@
     --font-menu-size: 12px;
     --menu-button-gap: 6px;
     --menu-nav-gap: 6px;
+    --menu-padding-top: 20px;
+    --menu-padding-bottom: 15px;
   }
 }
 
