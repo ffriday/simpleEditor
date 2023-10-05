@@ -15,9 +15,7 @@ export default function Button({
         handler(event);
       }}
     >
-      {image.map((img) => (
-        <img key={`${name}-img`} src={img} alt={name} />
-      ))}
+      <img src={image} alt={name} />
     </button>
   );
 }

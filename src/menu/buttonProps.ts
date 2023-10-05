@@ -1,11 +1,12 @@
 import imageBack from '../assets/back.svg';
 import imageForward from '../assets/forvard.svg';
 import imageCaption from '../assets/caption.svg';
+import imageParagraph from '../assets/paragraph.svg';
 import imageImage from '../assets/image.svg';
 
 type TMenuProps = {
   name: string;
-  image: string[];
+  image: string;
 };
 
 export type TMenuButton = TMenuProps & {
@@ -15,22 +16,22 @@ export type TMenuButton = TMenuProps & {
 export const buttons: TMenuProps[] = [
   {
     name: 'Back',
-    image: [imageBack],
+    image: imageBack,
   },
   {
     name: 'Forward',
-    image: [imageForward],
+    image: imageForward,
   },
   {
     name: 'Caption',
-    image: [imageCaption],
+    image: imageCaption,
   },
   {
     name: 'Paragraph',
-    image: [imageCaption, imageCaption],
+    image: imageParagraph,
   },
   {
     name: 'Image',
-    image: [imageImage],
+    image: imageImage,
   },
 ];

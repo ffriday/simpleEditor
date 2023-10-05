@@ -1,1 +1,19 @@
 @import '../constants/variables.css';
+
+.menu__button {
+  background-color: var(--menu-button-color);
+  width: var(--menu-button-width);
+  height: var(--menu-button-height);
+  border: 0;
+  border-radius: var(--menu-button-border-radius);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  cursor: pointer;
+  &:hover {
+    & img {
+      scale: var(--manu-button-scale);
+    }
+  }
+}

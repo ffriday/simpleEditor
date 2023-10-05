@@ -1,1 +1,20 @@
 @import '../constants/variables.css';
+
+.editor__menu {
+  display: flex;
+  gap: var(--menu-nav-gap);
+}
+
+.editor__buttons {
+  display: flex;
+  gap: var(--menu-button-gap);
+}
+
+.menu__copy {
+  color: var(--menu-text-color);
+  font-family: var(--font-menu);
+  font-size: var(--font-menu-size);
+  background-color: var(--container-color);
+  border: 0;
+  cursor: pointer;
+}

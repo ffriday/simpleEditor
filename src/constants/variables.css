@@ -1,10 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Inter&family=Roboto&display=swap');
+
 :root {
   /* colors */
   --container-color: #1E1E1E;
   --editor-font-color: #EAEAEA;
+  --menu-button-color: #282828;
+  --menu-text-color: #639EFF;
+  /* font */
+  --font-menu: 'Roboto', sans-serif;
+  --font-menu-size: 15px
   /* dimensions */
   --editor-max-width: 800px;
   --editor-margin: 10px;
+  --menu-button-width: 42px;
+  --menu-button-height: 38px;
+  --menu-button-border-radius: 4px;
+  --menu-button-gap: 12px;
+  --menu-nav-gap: 19px;
+  --manu-button-scale: 1.1;
 }
 
 @media (width >= 1000px) {
