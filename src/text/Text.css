@@ -1,1 +1,9 @@
 @import '../constants/variables.css';
+
+.editor__text {
+  flex-grow: 1;
+  min-height: var(--text-min-height);
+  caret-color: var(--text-caret-color);
+  outline: none;
+  font-family: var(--font-menu);
+}

@@ -4,12 +4,15 @@ html, body, #root {
   width: 100%;
   height: 100%;
   margin: 0;
+  background-color: var(--container-color);
 }
 
 .container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   width: 100%;
-  height: 100%;
+  height: auto;
   background-color: var(--container-color);
 }

@@ -20,6 +20,9 @@
   --manu-button-scale: 1.1;
   --menu-padding-top: 77px;
   --menu-padding-bottom: 31px;
+  --text-padding-bottom: 20px;
+  --text-min-height: 50vh;
+  --text-caret-color: var(--editor-font-color);
 }
 
 @media (width >= 1000px) {
