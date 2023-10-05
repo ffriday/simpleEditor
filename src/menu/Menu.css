@@ -16,5 +16,6 @@
   font-size: var(--font-menu-size);
   background-color: var(--container-color);
   border: 0;
+  padding: 0;
   cursor: pointer;
 }

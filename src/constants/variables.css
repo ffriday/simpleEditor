@@ -32,6 +32,16 @@
   }
 }
 
+@media (width <=570px) {
+  :root {
+    --menu-button-width: 25px;
+    --menu-button-height: 24px;
+    --font-menu-size: 12px;
+    --menu-button-gap: 6px;
+    --menu-nav-gap: 6px;
+  }
+}
+
 @media (width <=380px) {
   :root {
     --editor-width: 90%;

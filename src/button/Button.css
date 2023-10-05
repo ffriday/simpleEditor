@@ -11,6 +11,11 @@
   align-items: center;
   padding: 0;
   cursor: pointer;
+  & img {
+    object-fit: contain;
+    width: 50%;
+    height: 50%;
+  }
   &:hover {
     & img {
       scale: var(--manu-button-scale);
