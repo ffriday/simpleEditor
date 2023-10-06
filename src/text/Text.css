@@ -2,8 +2,14 @@
 
 .editor__text {
   flex-grow: 1;
-  min-height: var(--text-min-height);
   caret-color: var(--text-caret-color);
+  min-height: var(--text-min-height);
   outline: none;
   font-family: var(--font-menu);
+  &:not(:has(*)):hover {
+    background-color: var(--text-row-focus);
+  }
+  & *:hover {
+    background-color: var(--text-row-focus);
+  }
 }
